@@ -1,0 +1,54 @@
+.nav-link {
+    padding: 10px 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 0 !important;
+    background: #fff;
+}
+
+.booking-area{
+	margin-top: -42px;
+}
+
+
+.single-in{
+	margin-bottom:30px;
+	border-radius:0;
+	font-size: 13px;
+	font-weight:300;
+}
+
+.bb-btn{
+	float: right!important;
+}
+
+.tab-content{
+	padding: 28px 30px;
+  	box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+}
+
+@media(max-width:767px) {
+	.nav-link{
+		padding: 10px 10px;
+		font-size: 10px;
+	}
+}
+
+@media(max-width:332px) {
+	.nav-link{
+		font-size:8px;
+	}
+}
+
+
+.nav-tabs{
+	border:none;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+	border:none;
+}
