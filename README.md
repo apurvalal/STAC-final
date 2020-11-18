@@ -13,7 +13,7 @@
 ## About The Project
 <p align="center"><img width=22.5% src="https://github.com/flaregunner/STAC-final/blob/master/STAC/src/assets/img/biglogo.png"></p>
 
-As all of us know that the whole world right now is suffering from the COVID-19 pandemic. It has been a difficult time for all of us. Now that things are getting back to normal, it is important to understand that travelling for the business purpose or any other purpose is also going to resume. Therefore, keeping that in mind, our project introduces a new hotel search website to the frequent travellers to book their favourite hotels and be assured about their safety with respect to this virus. Our website will showcase the number of the people affected by the COVID-19 in the region. Travellers can hence, ensure a balance between staying safe as well as enjoying the best of travelling.
+As all of us know that the whole world right now is suffering from the COVID-19 pandemic. Now that things are getting back to normal, it is important to understand that travelling for business purpose or any other purpose is also going to resume. Therefore, keeping that in mind, our project introduces a new hotel search website to the frequent travellers to book their favourite hotels and be assured about their safety with respect to this virus. Our website will showcase the number of the people affected by the COVID-19 in the region. Travellers can hence, ensure a balance between staying safe as well as enjoying the best of travelling.
 
 ### Languages and Tools:
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
