@@ -34,4 +34,4 @@ STAC is loaded with exciting features:
 * Latest COVID-19 details
 * Easily search for hotels on any device
 
-<p align="center"><img width=12.5% src="https://github.com/flaregunner/STAC-final/blob/master/STAC/src/assets/img/feature.png"></p>
+[![feature.png](https://i.postimg.cc/wMtk35cq/feature.png)](https://postimg.cc/MfSBFQFN)
