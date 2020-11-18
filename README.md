@@ -5,6 +5,7 @@
 * [About the Project](#about-the-project)
   * [Languages and Tools](#languages-and-tools)
 * [Features](#features)
+* [How To Use](#how-to-use )
 
 ## About The Project
 <p align="center"><img width=12.5% src="https://github.com/flaregunner/STAC-final/blob/master/STAC/src/assets/img/biglogo.png"></p>
@@ -35,3 +36,10 @@ STAC is loaded with exciting features:
 * Easily search for hotels on any device
 
 [![feature.png](https://i.postimg.cc/wMtk35cq/feature.png)](https://postimg.cc/MfSBFQFN)
+
+## How to Use
+
+To search for your next travel destination, just enter the name of any city in the search bar. A list of regions will appear. Select the desired region and you will be navigated to the hotels page where you can choose any hotel from the numerous options displayed. You will then be navigated to the selected hotel page, here, you can get the COVID-19 information as well as the hotel information along with a carousel of images, location map and customer ratings.
+
+
+[![search.gif](https://i.postimg.cc/GpCKms5Y/search.gif)](https://postimg.cc/K10B94Fv)
