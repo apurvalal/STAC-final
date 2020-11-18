@@ -4,6 +4,7 @@
 
 * [About the Project](#about-the-project)
   * [Languages and Tools](#languages-and-tools)
+  * [APIs used](#apis-used)
 * [Features](#features)
 * [How To Use](#how-to-use)
 * [Feedback](#feedback)
@@ -23,7 +24,7 @@ As all of us know that the whole world right now is suffering from the COVID-19 
 <br />
 <br />
 
-### APIs Used
+### APIs used
 
 <img align="right" width=30.5% src="https://github.com/flaregunner/STAC-final/blob/master/STAC/src/assets/img/APIs.png">
 
