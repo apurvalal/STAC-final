@@ -41,5 +41,3 @@ STAC is loaded with exciting features:
 
 To search for your next travel destination, just enter the name of any city in the search bar. A list of regions will appear. Select the desired region and you will be navigated to the hotels page where you can choose any hotel from the numerous options displayed. You will then be navigated to the selected hotel page, here, you can get the COVID-19 information as well as the hotel information along with a carousel of images, location map and customer ratings.
 
-
-[![search.gif](https://i.postimg.cc/GpCKms5Y/search.gif)](https://postimg.cc/K10B94Fv)
