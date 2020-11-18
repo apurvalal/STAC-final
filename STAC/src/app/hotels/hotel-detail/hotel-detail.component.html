@@ -1,0 +1,78 @@
+<div class="hotel-detail-body" *ngIf="hotelDetails">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                  <ngb-carousel *ngIf="hotelImages">
+                    <ng-template *ngFor="let image of hotelImages" ngbSlide>
+                      <div class="wrapper">
+                        <img class="" [src]="image" >
+                      </div>
+                    </ng-template>
+                  </ngb-carousel>
+            </div>
+            <div class="col-md-5">
+                <div class="hotel-details">
+                    <h1 class="headname">{{hotelDetails.propertyDescription.name}}</h1>
+                    <h5 *ngIf="hotelDetails.propertyDescription.tagline && hotelDetails.propertyDescription.tagline.length" [innerHTML]="hotelDetails.propertyDescription.tagline[0]"></h5>
+                    <p class="star-rating">{{hotelDetails.propertyDescription.starRating}} star hotel</p>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-end">
+                    <button class="book-btn mt-120" (click)="submitLocation()">Book Now<span class="lnr lnr-arrow-right"></span></button>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+<div *ngIf="covidInfo" class="features">
+    <h1>COVID-19 Details</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="feature-item">
+                        <div *ngFor="let info of covidInfo.cases">
+                            <b>{{info.title}}</b> : {{info.value}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="features">
+    <h1>Amenities</h1>
+<div class="row">
+    <div class="col-md-4" *ngFor="let feature of hotelDetails.amenities">
+        <div class="feature-item">
+            <h4>{{feature.heading}}</h4>
+            <ul>
+                <li *ngFor="let item of feature.listItems">
+                    <h5>{{item.heading}}</h5>
+                    <ul>
+                        <li *ngFor="let listItem of item.listItems">
+                            {{listItem}}
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+<div *ngIf="hotelDetails.propertyDescription.mapWidget && hotelDetails.propertyDescription.mapWidget.staticMapUrl" class="col-md-4">
+    <h1 class="loca">Location</h1>
+    <img [src]="hotelDetails.propertyDescription.mapWidget.staticMapUrl">
+</div>
+</div>
+</div>
+<div *ngIf="hotelDetails.propertyDescription.address && hotelDetails.propertyDescription.address.fullAddress" class="features">
+    <h1>Address</h1>
+    <p class="address">{{hotelDetails.propertyDescription.address.fullAddress}}</p>
+</div>
+<div *ngIf="hotelDetails.guestReviews && hotelDetails.guestReviews.brands" class="features">
+    
+<h1>Rating</h1>
+    <p class="address">{{hotelDetails.guestReviews.brands.rating}}/10</p>
+</div>
+    </div>
+</div>
+

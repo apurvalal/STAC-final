@@ -1,0 +1,92 @@
+<div class="d-md-flex align-items-stretch">
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5 pt-5"><div class="archive">
+      <article class="article" *ngFor="let hotel of hotelResults">
+        <div class="hotel-item" (click)="goToHotelDetails(hotel)">
+          <img class="f-img img-fluid mx-auto" [src]="hotel.thumbnailUrl" alt="">
+          <div class="block-div">
+            <p class="hotel-name">{{hotel.name}}</p>
+            <p class="star-rating">{{hotel.starRating}} STAR</p>
+          </div>
+          <div class="block-div">
+            <p class="hotel-sub">{{hotel.neighbourhood}}</p>
+            <p class="hotel-price">{{getHotelPrice(hotel)}}</p>
+          </div>
+          <div class="hover-effect"></div>
+        </div>
+        <!-- <span class="fa fa-star checked" data-jest="full star"></span> -->
+      </article>
+
+    </div></div>
+
+    <nav id="sidebar">
+              <div class="p-4 pt-5">
+                  <h5>Sort By</h5>
+          <ul class="list-unstyled components mb-5">
+            <li>
+              <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Prices: Low to High</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu1">
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Casual</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Football</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Jordan</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Lifestyle</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Running</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Soccer</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Sports</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Prices: High to Low</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu2">
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Casual</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Football</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Jordan</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Lifestyle</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Running</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Soccer</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Sports</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Ratings</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu3">
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Nicklace</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Ring</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Bag</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Sacks</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Lipstick</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Relevance</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu4">
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Jeans</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> T-shirt</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Jacket</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Shoes</a></li>
+              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Sweater</a></li>
+              </ul>
+            </li>
+          </ul>
+                  <div class="mb-5">
+                      <h5>Hotel Rating</h5>
+          <div class="tagcloud">
+            <a href="#" class="tag-cloud-link">5 Star</a>
+            <a href="#" class="tag-cloud-link">4 Star</a>
+            <a href="#" class="tag-cloud-link">3 Star</a>
+            <a href="#" class="tag-cloud-link">2 Star</a>
+            <a href="#" class="tag-cloud-link">1 Star</a>
+          </div>
+                  </div>
+                  <div class="mb-5">
+              <h5>Submit Query</h5>
+                      <form action="#" class="subscribe-form">
+              <div class="form-group d-flex">
+                  <div class="icon"><span class="icon-paper-plane"></span></div>
+                <input type="text" class="form-control" placeholder="Enter Email Address">
+              </div>
+            </form>
+                  </div>
+        </div>
+      </nav>
+      

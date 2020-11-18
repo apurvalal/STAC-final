@@ -52,3 +52,29 @@
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
 	border:none;
 }
+.result-list {
+	display: inline-block;
+}
+
+.results {
+	margin-top: 20px;
+}
+
+.result-items {
+	display: inline-block;
+    margin: 6px 10px;
+    border: 1px solid lightgrey;
+    padding: 3px 10px;
+	border-radius: 10px;
+	
+	.result-type {
+		font-size: 10px;
+		color: #8a98f7;
+		margin-bottom: -7px;
+	}
+}
+
+.result-items:hover {
+	cursor: pointer;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}

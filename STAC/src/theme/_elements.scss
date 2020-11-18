@@ -1,5 +1,5 @@
 $default: #f9f9ff;
-$primary: #fcd2ff;
+$primary: #a0a0a0;
 $success: #4cd3e3;
 $info   : #38a4ff;
 $warning: #f4e700;
@@ -16,6 +16,7 @@ $disable: (#222222, .3);
 }
 b, i, sup, sub, u, del {
 	color: $primary;
+	font-weight: normal;
 }
 h1 {
 	font-size: 36px;
