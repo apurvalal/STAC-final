@@ -7,7 +7,7 @@
   * [APIs used](#apis-used)
 * [Features](#features)
 * [How To Use](#how-to-use)
-* [How To clone our Project](#how-to-clone-our-project)
+* [How To install our Project](#how-to-install-our-project)
 * [Feedback](#feedback)
 
 ## About The Project
