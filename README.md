@@ -5,7 +5,8 @@
 * [About the Project](#about-the-project)
   * [Languages and Tools](#languages-and-tools)
 * [Features](#features)
-* [How To Use](#how-to-use )
+* [How To Use](#how-to-use)
+* [Feedback](#feedback)
 
 ## About The Project
 <p align="center"><img width=22.5% src="https://github.com/flaregunner/STAC-final/blob/master/STAC/src/assets/img/biglogo.png"></p>
@@ -46,5 +47,5 @@ To search for your next travel destination, just enter the name of any city in t
 
 ## Feedback
 
-Feel free to send us feedback on [Twitter](https://twitter.com/k_Akshit28/) or [file an issue](https://github.com/flaregunner/STAC-final/issues/new/). Fedback and feature requests are always welcome.
+Feel free to send us feedback on [Twitter](https://twitter.com/k_Akshit28/) or [file an issue](https://github.com/flaregunner/STAC-final/issues/new/). Feedback and feature requests are always welcome.
 
