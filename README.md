@@ -7,7 +7,7 @@
   * [APIs used](#apis-used)
 * [Features](#features)
 * [How To Use](#how-to-use)
-* [How To install our Project](#how-to-install-our-project)
+* [How To install the project](#how-to-install-the-project)
 * [Feedback](#feedback)
 
 ## About The Project
@@ -55,7 +55,7 @@ To search for your next travel destination, just enter the name of any city in t
 
 <p align="center"><img src="https://github.com/flaregunner/STAC-final/blob/master/STAC/src/assets/img/searchthree.gif"></p>
 
-## How to install our Project
+## How to install the project
 
 1. Install npm
 
