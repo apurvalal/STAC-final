@@ -27,7 +27,7 @@ As all of us know that the whole world right now is suffering from the COVID-19 
 
 <img align="right" width=30.5% src="https://github.com/flaregunner/STAC-final/blob/master/STAC/src/assets/img/APIs.png">
 
-We have used relaible and relevant APIs for COVID-19 information and Hotel fetching. For COVID-19 information, we have used COVID-19 India tracker published on [Postman](https://documenter.getpostman.com/view/11238297/SzfDwQdd?version=latest) and to fetch Hotels we have used and API from apidojo on [RapidApi](https://rapidapi.com/apidojo/api/hotels4?endpoint=apiendpoint_dd6bbe39-cc27-4600-acbb-504d180b4d0d).
+We have used relaible and relevant APIs for COVID-19 information and Hotel fetching. For COVID-19 information, we have used COVID-19 India tracker published on [Postman](https://documenter.getpostman.com/view/11238297/SzfDwQdd?version=latest) and to fetch Hotels we have used and API from apidojo on [RapidApi](https://rapidapi.com/apidojo/api/hotels4?endpoint=apiendpoint_dd6bbe39-cc27-4600-acbb-504d180b4d0d). Using these APIs we are able to display accurate COVID-19 information and produce a extensive list of Hotels for the specified location.
 
 <br clear="right">
 
